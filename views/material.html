@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ArcGIS JavaScript Tutorials: Create a JavaScript starter app</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css">
+    <script type="application/javascript" src="https://js.arcgis.com/4.14/"></script>
+    <script src="./javascripts/dashboard.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+
+<body>
+    <div class="mdc-layout-grid dashboardCtn">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-2">
+                <div class="mdc-layout-grid__cell--span-12 ctnBox label">
+                    <h1>Confirmados</h1>
+                    <h2>100</h2>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox label">
+                    <h1>Sospechosos</h1>
+                    <h2>100</h2>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox label">
+                    <h1>Descartados</h1>
+                    <h2>100</h2>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox label">
+                    <h1>Recuperados</h1>
+                    <h2>100</h2>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox label">
+                    <h1>Decesos</h1>
+                    <h2>100</h2>
+                </div>
+                <br />
+            </div>
+            <div class="mdc-layout-grid__cell--span-2">
+                <div class="mdc-layout-grid__cell--span-12 label">
+                    <h2>Casos por departamento</h2>
+                </div>
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>Santa Cruz</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>Cochabamba</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>La Paz</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>Oruro</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+            </div>
+            <div class="mdc-layout-grid__cell--span-6">
+                <div class="mdc-layout-grid__cell--span-12 mapCtn">
+                    <div id="viewDiv"></div>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 graphsCtn">
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-6 ctnBox graph">
+                            GRAFICO 1
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-6 ctnBox graph">
+                            GRAFICO 2
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2">
+                <div class="mdc-layout-grid__cell--span-12 label">
+                    <h2>Casos por municipio</h2>
+                </div>
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>Santa Cruz</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>Cochabamba</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>La Paz</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox department">
+                    <h3>Oruro</h3>
+                    <h4>100</h4>
+                </div>
+                <br />
+                <div class="mdc-layout-grid__cell--span-12 ctnBox">
+                    <img class="logoUcb" src="images/logo_ucb.jpg" alt="LOGO UCB" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

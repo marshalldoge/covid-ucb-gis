@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('dashboard', { title: 'Dashboard' });
 });
+router.get('/m', function(req, res, next) {
+    res.render('materialize', { title: 'Dashboard' });
+});
 
 module.exports = router;
