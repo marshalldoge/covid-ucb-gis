@@ -1,0 +1,1 @@
+document.getElementById("principal").style.backgroundColor = "lightblue";
